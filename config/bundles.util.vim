@@ -16,6 +16,8 @@ map <C-e> <ESC>:NERDTreeToggle<CR>
 
 "################### 文件搜索 ###################
 Bundle 'ctrlpvim/ctrlp.vim'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 " ctrlp插件1 - 不用ctag进行函数快速跳转
 Bundle 'tacahiroy/ctrlp-funky'
