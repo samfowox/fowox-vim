@@ -32,10 +32,12 @@ endfunc
 
 "###### PHP #########
 
-autocmd FileType python set tabstop=4 shiftwidth=4 expandtab ai
+autocmd FileType php set tabstop=4 shiftwidth=4 expandtab ai
 
 
 "###### Python #########
+"
+autocmd FileType python set tabstop=4 shiftwidth=4 expandtab ai
 
 
 "###### Golang #########
