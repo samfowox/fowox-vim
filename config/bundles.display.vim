@@ -31,6 +31,9 @@ let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 set laststatus=2
 
+Plugin 'Lokaltog/powerline-fonts'
+let g:airline_powerline_fonts = 1
+
 "括号显示增强
 Bundle 'kien/rainbow_parentheses.vim'
 let g:rbpt_colorpairs = [

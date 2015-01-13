@@ -35,6 +35,9 @@ export SHELL="/bin/sh"
 vim -u $HOME/.vimrc.bundles +BundleInstall! +qall
 export SHELL=$system_shell
 
+echo "Step5: install powerline-fonts"
+/bin/sh $HOME/.vim/bundle/powerline-fonts/install.sh
+
 #vim bk and undo dir
 if [ ! -d /tmp/vimbk ]
 then
