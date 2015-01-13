@@ -3,6 +3,9 @@
 " 正则表达
 set magic
 set mouse=a
+set selection=exclusive
+set selectmode=mouse,key
+
 " 只能backspace
 set backspace=start,indent,eol
 " 取消报错声
