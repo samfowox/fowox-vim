@@ -27,6 +27,8 @@ endif
 
 " 自动加载
 set autoread
+" 共享黏贴板
+set clipboard=unnamed
 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
