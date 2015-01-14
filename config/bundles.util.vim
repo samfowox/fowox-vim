@@ -26,7 +26,8 @@ Bundle 'tacahiroy/ctrlp-funky'
 let g:ctrlp_funky_syntax_highlight = 1
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_extensions = ['funky']
-nnoremap <C-c> :CtrlPFunky<Cr>
+let g:ctrlp_map = '<C-c>'
+" nnoremap <C-c> :CtrlPFunky<Cr>
 
 Plugin 'rking/ag.vim'
 let g:aghighlight=1
