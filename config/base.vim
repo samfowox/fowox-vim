@@ -29,6 +29,9 @@ endif
 set autoread
 " 共享黏贴板
 set clipboard=unnamed
+" 在很长的行里，单行移动
+map j gj
+map k gk
 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
