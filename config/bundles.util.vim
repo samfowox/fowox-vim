@@ -1,6 +1,7 @@
 "################### 快速导航 ###################
 "目录导航
 Bundle 'scrooloose/nerdtree'
+nunmap
 " map <leader>n :NERDTreeToggle<CR>
 let NERDTreeHighlightCursorline=1
 " let NERDTreeIgnore=[ '^\.git$', '^\.svn$', '^\.hg$' ]
@@ -46,8 +47,8 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
 let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
-inoremap <expr> <c-k> pumvisible()?"\<c-p>":"\<c-k>"
-inoremap <expr> <c-j> pumvisible()?"\<c-n>":"\<c-j>"
+" inoremap <expr> <c-k> pumvisible()?"\<c-p>":"\<c-k>"
+" inoremap <expr> <c-j> pumvisible()?"\<c-n>":"\<c-j>"
 
 
 "################### 快速编码 ###################
@@ -60,9 +61,9 @@ nmap <Leader>a: :Tabularize /:<CR>
 " Plugin 'honza/vim-snippets'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
-imap <C-m>     <Plug>(neosnippet_expand_or_jump)
-smap <C-m>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-m>     <Plug>(neosnippet_expand_target)
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
 " For snippet_complete marker.
 if has('conceal')
 	set conceallevel=2 concealcursor=i
