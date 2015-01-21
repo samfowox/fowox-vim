@@ -1,7 +1,6 @@
 "################### 快速导航 ###################
 "目录导航
 Bundle 'scrooloose/nerdtree'
-nunmap
 " map <leader>n :NERDTreeToggle<CR>
 let NERDTreeHighlightCursorline=1
 " let NERDTreeIgnore=[ '^\.git$', '^\.svn$', '^\.hg$' ]
