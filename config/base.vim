@@ -22,6 +22,7 @@ if has('persistent_undo')
   set undolevels=1000         " How many undos
   set undoreload=10000        " number of lines to save for undo
   set undofile                " So is persistent undo ...
+  silent execute '!mkdir -p /tmp/vimundo'
   set undodir=/tmp/vimundo/
 endif
 
