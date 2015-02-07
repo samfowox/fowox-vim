@@ -1,3 +1,7 @@
+# PREPARATION
+
+install vim with lua
+
 # INSTALLATION
 
 ./install.sh
