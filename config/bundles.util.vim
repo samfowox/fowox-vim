@@ -18,7 +18,7 @@ map <C-e> <ESC>:NERDTreeToggle<CR>
 Bundle 'ctrlpvim/ctrlp.vim'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:10'
+let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:100'
 let g:ctrlp_regexp = 1
 
 " ctrlp插件1 - 不用ctag进行函数快速跳转
